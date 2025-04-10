@@ -1,0 +1,50 @@
+.titulo {
+    color: #95a1b1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo2 {
+    color: #919eaf75;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: -10px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+#minha-foto {
+    width: 100px;
+    margin-left: 345px;
+    position: relative;
+    top: -80px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background: url("https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/bg.jpg") no-repeat center/cover;
+    
+    
+    color: #e1e1e6;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1rem;
+    
+}
+
+#apresentacao {
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+    align-items: center;
+    display: grid;  
+    padding: 0;
+    color: aliceblue;
+}
