@@ -20,8 +20,7 @@ Este é o meu portfólio pessoal desenvolvido em HTML, CSS e JavaScript. Aqui co
 
 ## 📸 Captura de Tela
 
-(Adicione aqui uma imagem do seu portfólio. Exemplo:)
-![screenshot do portfólio](c:\Users\JoaoRodrigo\Documents\Lightshot\Screenshot_17.png)
+![screenshot do portfólio](assets/img/screenshot_17.png)
 
 ## 🚀 Como visualizar o projeto
 
