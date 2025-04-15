@@ -19,9 +19,7 @@ Este é o meu portfólio pessoal desenvolvido em HTML, CSS e JavaScript. Aqui co
 - Estilo moderno com foco em simplicidade
 
 ## 📸 Captura de Tela
-
-(Adicione aqui uma imagem do seu portfólio. Exemplo:)
-![screenshot do portfólio](c:\Users\JoaoRodrigo\Documents\Lightshot\Screenshot_17.png)
+(c:\Users\JoaoRodrigo\Documents\Lightshot\Screenshot_17.png)
 
 ## 🚀 Como visualizar o projeto
 
