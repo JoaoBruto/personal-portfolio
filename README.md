@@ -18,10 +18,6 @@ Este é o meu portfólio pessoal desenvolvido em HTML, CSS e JavaScript. Aqui co
 - Layout responsivo (em andamento)
 - Estilo moderno com foco em simplicidade
 
-## 📸 Captura de Tela
-
-![screenshot do portfólio](assets/img/screenshot_17.png)
-
 ## 🚀 Como visualizar o projeto
 
 Você pode acessar o site diretamente pelo GitHub Pages (ou outro serviço de deploy, como Netlify ou Vercel):
