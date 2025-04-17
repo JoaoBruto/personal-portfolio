@@ -24,8 +24,10 @@
     position: relative;
     top: -85px;
     border-radius: 50%;
-    box-shadow: 0 0 15px #00c6ff
+    box-shadow: 0 0 15px #00c6ff;
 }
+
+
 
 .skills {
     display: flex;
@@ -118,6 +120,19 @@ body {
     width: 24px;
     height: 30px;
     gap: 10px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .minha-foto {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        top: 0;
+        position: static;
+        margin-top: -80px;
+        margin-left: -70px;
+    }
 }
 
 
