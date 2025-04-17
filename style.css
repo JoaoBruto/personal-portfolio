@@ -123,15 +123,14 @@ body {
 }
 
 /* RESPONSIVIDADE */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .minha-foto {
         margin-left: auto;
         margin-right: auto;
-        display: block;
-        top: 0;
-        position: static;
-        margin-top: -85px;
-        margin-left: -90px;
+        position: relative;
+        margin-top: -45px;
+        margin-left: -25px;
+        padding: 0;
     }
 }
 
