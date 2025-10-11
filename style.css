@@ -51,7 +51,6 @@
     font-family: poppins;
     font-size: 35px;
     text-align: left;
-    margin: 30px 0 10px -65px;
     color: #00BFFF; 
 }
     
@@ -98,9 +97,7 @@ body {
     font-family: poppins;
     font-size: 35px;
     text-align: left;
-    margin: 30px 0 10px -70px;
-    color: #b084f9; 
-    text-shadow: 0 0 10px rgba(223, 38, 223, 0.626);
+    color: #00BFFF; 
 }
 
 #contato li, a{
@@ -113,6 +110,7 @@ body {
     background: linear-gradient(to right, #8a2be2, #00bfff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: none;
      transition: 0.3s;
 }
 
@@ -122,17 +120,12 @@ body {
     gap: 10px;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 600px) {
-    .minha-foto {
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        margin-top: -45px;
-        margin-left: -25px;
-        padding: 0;
-    }
+#contato  a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    
 }
+
 
 
 
