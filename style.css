@@ -8,13 +8,12 @@
 }
 
 
-.titulo2 {
+.meu-nome {
     color: #919eaf75;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin-top: -10px;
     position: relative;
-    align-items: center;
     text-align: center;
 }
 
@@ -72,9 +71,7 @@
 }
 
 body {
-    background: url("https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/bg.jpg") no-repeat center/cover;
-    
-    
+    background: url("https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/bg.jpg") no-repeat;
     color: #e1e1e6;
     display: grid;
     place-items: center;
