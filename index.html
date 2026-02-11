@@ -1,88 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
 </head>
 <body>
-    <!--Conteúdo principal-->
-    <div class="conteudo">
-    <div class="titulo">
-        <h1 class="titulo"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60"> Olá! Seja bem-vindo ao meu portfólio!</h1> <br>
-    </div>
-    <div class="meu-nome">
-        <h2 class="meu-nome">João Rodrigo Ferreira Freire</h2> <!--Meu nome-->
-    </div>
-    <div>
-        <img class="minha-foto" src="video-de-fundo/Professional Studio Portrait.png" > <!--Minha foto (Pretendo fazer mudanças)-->
-    </div>
-    <div id="apresentacao">
-        <p>Sou um jovem desenvolvedor de 16 anos com base sólida em HTML e CSS, além de conhecimentos em JavaScript e Python. <br> Atualmente estou focado em front-end, mas pretendo explorar o back-end e aprender Java no futuro.<br>  Estou sempre buscando evoluir e criar projetos que mostrem minha dedicação e crescimento na área.</p>
-    <!---->
-        <!--Minhas habilidades-->
-        <p id="my-skills">
-            🛠️ Minhas habilidades <!--Titulo-->
-        </p>
-        <div class="skills">
-        <p class="languages">
-            <div class="skill">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo" alt="HTML" /> <!--Define img do HTML-->
-             <span class="name-languages">• HTML5</span> - Estruturação de páginas web com semântica e boas práticas <br> <!--Define breve descrição sobre a linguagem-->
-            </div>
-            <div class="skill">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo" alt="CSS" /> <!--Define img do CSS-->
-             <span class="name-languages">• CSS3</span> - Estilização moderna, uso de Flexbox, responsividade básica  e animações. <!--Define breve descrição sobre a linguagem-->  
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo" height="30" alt="css3 logo" alt="CSS" /> <!--Define img do JavaScript-->
-                 <span class="name-languages">• JavaScript</span> - Manipulação de elementos da página e lógica de programação. <!--Define breve descrição sobre a linguagem-->
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  /> <!--Define img do Python-->
-                 <span class="name-languages">• Python</span> - Algoritmos, lógica de programação e pequenos projetos. <!--Define breve descrição sobre a linguagem-->
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  /> <!--Define img do Git-->
-                 <span class="name-languages">• Git & GitHub</span> - Controle de versão e publicação de projetos.  <!--Define breve descrição sobre a linguagem-->
-            </div>
-            <div class="skill">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo" /> <!--Define img do Figma-->
-                 <span class="name-languages">• Figma</span> - Criação de interfaces, protótipos e organização visual de projetos <!--Define breve descrição sobre a linguagem-->
-            </div> 
-        <!---->
+    <header>
+        <nav>
+            <a href="#home"><i class="ph ph-house"></i>Início</a>
+            <a href="#sobre"><i class="ph ph-user"></i>Sobre</a>
+            <a href="#projetos"><i class="ph ph-briefcase"></i>Projetos</a>
+            <a href="#contato"><i class="ph ph-envelope"></i>   Contato</a>
+        </nav>
+    </header>
 
-            <!--Entre em contanto comigo-->
-            <section id="contato">
-                <h2>📫 Entre em contato comigo</h2>
-                <div class="contatos">
-                <ul>
+     <div>
+        <main id="home">
+            <!-- Minha foto -->
+             <img class="pessoa" src="assets/img/Professional Studio Portrait.png" alt="Foto Profissional" loading="lazy"/>
+
+             <section>
+                <div>
+                    <h1 id="nome">Olá, eu sou o <span class="destaque">João Rodrigo</span>
+                    </h1>
                 </div>
-                    <li>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" alt="linkedin logo"  />
-                        <a id="linkedin" href=https://www.linkedin.com/in/jo%C3%A3o-rodrigo-ferreira-freire-a6b23b319/ target="_blank">• Linkedin</a></li>
-                    </li>
-                    <li>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-                        <a id="linkedin" href=https://github.com/JoaoBruto target="_blank">• GitHub</a></li>
-                    </li>
-                    <li>
-                        <img src="https://skillicons.dev/icons?i=instagram" height="30" alt="instagram logo"/>
-                        <a id="linkedin" href=https://www.instagram.com/_joaoroodrigo/ target="_blank">• Instagram</a></li>
-                    </li>
-                </ul>
-            </section>
-            <!---->
-        </div>
-        </p>
-    </div>
+             </section>
+        </main>
+     </div>
 </body>
+<body>
 </html>
