@@ -86,22 +86,54 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 1rem 0;
+  margin-bottom: 10px;
 }
 
 .habilidades li {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: 155px;
+  height: 70px;
+  background-color: rgba(19, 17, 19, 0.789);
 }
 
-.habilidades li img {
+.habilidades li:hover {
+  background: rgba(128, 0, 128, 0.1);
+  transform: translate(-2px);
+  box-shadow: 0 4px 16px rgba(128, 0, 128, 0.2) ;
+}
+
+.habilidades img {
   width: 40px;
   height: 40px;
   object-fit: contain;
   transition: transform 0.3s ease;
+}
+
+.habilidades li:hover img {
+  transform: scale(1.2);
+}
+
+.tooltip {
+  position: initial;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#nome {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
 }
