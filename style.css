@@ -79,7 +79,7 @@ main {
 
   margin-top: 2rem;
   min-height: 50px;
-  height: 80%;
+  height: 45%;
   max-height: 642px;
   border-radius: 0.5rem;
   border: 1px solid purple;
@@ -136,13 +136,14 @@ main {
 }
 
 #nome {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 600;
   color: white;
 }
 
 .sobre {
+  margin-top: 2rem;
   max-width: 800px;
   text-align: center;
   font-size: 1.2rem;
@@ -191,4 +192,179 @@ main {
   
   margin: 0 auto 1.5rem auto;
   border-collapse: collapse;
+}
+
+#projetos {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-height: calc(100vh - 92px);
+  color: white;
+  background-color: #18181b;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-image i {
+  font-size: 3rem;
+  color: white;
+}
+
+.project-card {
+  background: rgba(128, 0, 128, 0.1);
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid purple;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #18181b;
+  box-shadow: 0 8px 16px rgba(128, 0, 128, 0.2) ;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(128, 0, 128, 0.3) ;
+}
+
+.project-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, purple, #2d0750);
+  border-radius: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-position: center;
+}
+
+.project-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#projetos h1 {
+  margin-top: -5%;
+  font-size: 2rem;
+  color: purple;
+  text-align: center;
+  justify-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.project-content h3 {
+  font-size: 1.25rem;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-tech {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.project-tech span {
+  background: rgba(128, 0, 128, 0.1);
+  color: purple;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+
+}
+
+.project-links a {
+  border: 1px solid purple;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.project-links a:hover {
+  background: rgba(128, 0, 128, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(128, 0, 128, 0.2) ;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-height: calc(100vh - 92px);
+  color: purple;
+  background-color: #ffffff;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #18181b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.social-link i {
+  font-size: 2rem;
+  color: purple;
+}
+
+.social-link:hover {
+  background: rgba(128, 0, 128, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(128, 0, 128, 0.2) ;
+} 
+
+.social-link span {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #18181b;
+  color: white;
+  font-size: 0.875rem;
 }
