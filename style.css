@@ -17,6 +17,10 @@ body {
 
 header {
   display: flex;
+  nav {
+    display: flex;
+    gap: 1.5rem;
+  }
 
   justify-content: center;
   align-items: center;
@@ -69,8 +73,8 @@ main {
   flex-direction: column;
   align-items: center;
 
-  gap: 2rem;
-  height: calc(120vh - 92px);
+  gap: 1rem;
+  min-height: calc(100vh - 92px);
 }
 
 .pessoa {
@@ -90,7 +94,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1.5rem;
-  margin-top: 1rem 0;
+  margin: 1rem 0;
   margin-bottom: 10px;
 }
 
@@ -143,8 +147,8 @@ main {
 }
 
 .sobre {
+  margin-bottom: 6%;
   margin-top: 2rem;
-  max-width: 800px;
   text-align: center;
   font-size: 1.2rem;
   color: #18181b;
@@ -174,9 +178,7 @@ main {
   align-items: left;
   padding: 0.5rem 1rem;
   color: purple;
-
-  float: left;
-
+  
 }
 
 .sobre table td {
@@ -201,7 +203,8 @@ main {
   gap: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  min-height: calc(100vh - 92px);
+  min-height: calc(60vh - 92px);
+
   color: white;
   background-color: #18181b;
 }
@@ -222,7 +225,6 @@ main {
   border: 1px solid purple;
   display: flex;
   flex-direction: column;
-  border: 1px solid purple;
   border-radius: 0.5rem;
   overflow: hidden;
   background-color: #18181b;
@@ -315,7 +317,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
